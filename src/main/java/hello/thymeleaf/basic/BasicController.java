@@ -129,6 +129,7 @@ public class BasicController {
     @Component("helloBean")
     static class HelloBean{
         public String hello(String data){
+
             return "hello "+data;
         }
     }
